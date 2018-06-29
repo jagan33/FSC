@@ -100,10 +100,10 @@ class CoreDataViewController: UIViewController {
     
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        if let count = fetchedhResultController.sections?.first?.numberOfObjects {
-            return count
-        }
-        return 0
+//        if let count = fetchedhResultController.sections?.first?.numberOfObjects {
+//            return count
+//        }
+        return 50
     }
     
      func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
